@@ -1,0 +1,19 @@
+{
+  "name": "userregistrationapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node src/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "body-parser": "^2.3.0",
+    "express": "^5.3.0",
+    "mongoose": "^9.11.2"
+  }
+}
