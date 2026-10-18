@@ -16,7 +16,7 @@ function searchProducts(products, options) {
             (maxPrice === undefined || products[i].price <= maxPrice) &&
             (!inStockOnly || products[i].stock > 0) &&
             (!search || products[i].name.toLowerCase().includes(search.toLowerCase()))
-        ) {
+        ) { 
             result.push(products[i]);
         }
     }
